@@ -1,14 +1,14 @@
 # Space Game (BrAwSer)
 
-Проста гра на JavaScript, розроблена за умовами домашнього завдання: потрібно знищувати кораблі чужинців, які спускаються зверху вниз.
+A simple browser arcade game built with JavaScript (using OOP, events, and exception handling). The objective is to destroy incoming alien ships descending from the top.
 
-## Як грати
-1. Натисніть кнопку **Start**.
-2. Використовуйте клавіші **стрілка вліво** та **стрілка вправо** для керування кораблем.
-3. Натисніть **Пробіл**, щоб здійснити постріл.
-4. За кожного знищеного ворога нараховуються очки. 
+## How to Play
+1. Select the initial speed and click **Start**.
+2. Use the **Left** and **Right** arrow keys to move your ship.
+3. Press **Space** to shoot a laser beam.
+4. Earn points for each destroyed enemy ship. Speed increases as your score grows.
 
-## Файли проєкту
-* `index.html` — головна сторінка з ігровим полем та панеллю керування.
-* `style.css` — стилі для оформлення інтерфейсу.
-* `script.js` — логіка гри, класи та обробка подій.
+## Project Structure
+* `index.html` — main page layout (game canvas, scoreboard, controls).
+* `style.css` — styling and grid layout.
+* `script.js` — game logic, `Ship` class, and event listeners.
