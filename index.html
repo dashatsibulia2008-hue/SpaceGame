@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>BrAwSer - Space Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Ігрове поле -->
+        <canvas id="gameCanvas" width="320" height="440"></canvas>
+        
+        <!-- Панель керування та рахунку -->
+        <div class="sidebar">
+            <div class="score-board">
+                <p>Score: <span id="scoreVal">0</span></p>
+                <p>Speed: <span id="speedVal">01</span></p>
+            </div>
+            
+            <div class="control-panel">
+                <h3>Speed</h3>
+                <select id="speedSelect">
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3" selected>03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                </select>
+                <button id="startBtn">Start</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
